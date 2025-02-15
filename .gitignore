@@ -1,4 +1,5 @@
 .env
 app.js
+backup.js
 /node_modules
 
