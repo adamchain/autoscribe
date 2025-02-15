@@ -10,3 +10,4 @@ const config = {
     maxRetries: process.env.MAX_RETRIES || 3,
     supportedExtensions: process.env.SUPPORTED_EXTENSIONS?.split(',') || ['.js', '.jsx', '.ts']
 };
+
