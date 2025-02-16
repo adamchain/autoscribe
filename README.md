@@ -16,6 +16,32 @@ AutoScribe is an AI-powered documentation generator that automatically creates c
   - Class methods
   - Object methods
 
+## Generated Documentation Format
+
+The tool generates comprehensive documentation including:
+
+### File-Level Documentation
+- File purpose
+- Main components/functions
+- Important notes and dependencies
+
+### Function-Level Documentation
+- Function description
+- Parameter types and descriptions
+- Return value type and description
+- Exception documentation when applicable
+
+## Error Handling
+
+- Retries failed API calls up to the configured maximum
+- Validates generated documentation format
+- Provides detailed error messages for troubleshooting
+- Maintains original code if documentation generation fails
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
 ## Prerequisites
 
 - Node.js (version 14 or higher recommended)
@@ -93,32 +119,6 @@ The tool can be configured through environment variables or command-line argumen
 | SUPPORTED_EXTENSIONS | File extensions to process | .js,.jsx,.ts,.tsx |
 | MAX_RETRIES | Maximum retry attempts | 3 |
 | DRY_RUN | Preview mode | false |
-
-## Generated Documentation Format
-
-The tool generates comprehensive documentation including:
-
-### File-Level Documentation
-- File purpose
-- Main components/functions
-- Important notes and dependencies
-
-### Function-Level Documentation
-- Function description
-- Parameter types and descriptions
-- Return value type and description
-- Exception documentation when applicable
-
-## Error Handling
-
-- Retries failed API calls up to the configured maximum
-- Validates generated documentation format
-- Provides detailed error messages for troubleshooting
-- Maintains original code if documentation generation fails
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
