@@ -1,6 +1,6 @@
 # AutoScribe Documentation Generator
 
-AutoScribe is an AI-powered documentation generator that automatically creates comprehensive JSDoc/TSDoc comments for your JavaScript and TypeScript code using GPT 4.o.
+AutoScribe is a documentation generator that automatically creates comprehensive JSDoc/TSDoc comments for your JavaScript and TypeScript code using GPT 4.o.
 
 ## Features
 
