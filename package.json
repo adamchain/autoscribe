@@ -1,18 +1,24 @@
 {
   "name": "autoscribe",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "autoscribe.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "documentation",
+    "openai",
+    "jsdoc",
+    "typescript"
+  ],
+  "author": "Adam Chain",
+  "license": "MIT",
   "type": "module",
-  "description": "",
+  "description": "Auto-generate meaningful JSDoc comments and function documentation.",
   "dependencies": {
     "@babel/parser": "^7.26.9",
     "@babel/traverse": "^7.26.9",
+    "dotenv": "^16.4.7",
     "openai": "^4.85.1"
   }
 }

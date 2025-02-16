@@ -4,9 +4,9 @@ AutoScribe is an AI-powered documentation generator that automatically creates c
 
 ## Features
 
-- Generates file-level and function-level documentation
-- Supports JavaScript (.js), TypeScript (.ts), JSX (.jsx), and TSX (.tsx) files
+- Generates rich file-level and function-level documentation
 - Processes individual files or entire directories recursively
+- Supports JavaScript (.js), TypeScript (.ts), JSX (.jsx), and TSX (.tsx) files
 - Maintains existing code structure while adding documentation
 - Configurable through environment variables or command-line arguments
 - Supports "dry-run" mode which outputs in terminal
@@ -26,8 +26,8 @@ AutoScribe is an AI-powered documentation generator that automatically creates c
 
 1. Clone the repository:
 ```bash
-git clone [your-repo-url]
-cd [repository-name]
+git clone [https://github.com/adamchain/autoscribe.git]
+cd [autoscribe]
 ```
 
 2. Install dependencies:
@@ -55,7 +55,7 @@ node autoscribe.js <path> --api-key <your-api-key>
 
 ### Command Line Options
 
-- `--dry-run`: Preview documentation without modifying files
+- `--dry-run`: Generate documentation in terminal, without modifying files
 - `--api-key <key>`: OpenAI API key (not required if key is in env)
 - `--recursive`: Process directories recursively
 - `--model <model>`: OpenAI model to use (default: gpt-4o)
@@ -119,7 +119,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-[Your chosen license]
+GPL-3.0 license
 
 ## Acknowledgments
 
