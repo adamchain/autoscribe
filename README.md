@@ -52,6 +52,9 @@ DRY_RUN=false
 ```bash
 node autoscribe.js <path> --api-key <your-api-key>
 ```
+```bash
+Example: node autoscribe.js sample.js
+```
 
 ### Command Line Options
 
